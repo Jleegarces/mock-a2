@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font
+}
+
+
+
+
+div {
+    padding: 20px;
+}
+
+.logo-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.center-span {
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+
+fieldset {
+    width: 75%;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 20px 25px;
+    margin-bottom: 50px;
+    
+    
+}
+
+form label {
+    font-size: 90%;
+    font-weight: bold;
+}
+
+/* form a {
+    color:rgb(91, 91, 197);
+    text-decoration: none;
+    padding-left: 5px;
+} */
+
+form input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    margin-bottom: 25px;
+}
+
+form input[type="submit"] {
+    background-color: goldenrod;
+    border-color: lightgray;
+    font-size: 85%;
+}
+
+form a {
+    padding-left: 90px;
+    color:rgb(91, 91, 197);
+}
+
+fieldset a {
+    text-decoration: none;
+    color:rgb(91, 91, 197);
+}
+div hr {
+    border: none;
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 70%;
+    /* border-top: 3px double #333; */
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    align-items: center;
+    
+    
+}
+div hr:after {
+    background: #fff;
+    content: 'New to Amazon?';
+    padding: 10 4px;
+    position: relative;
+    top: -13px;
+    
+}
+
+.create-button {
+    border-left-width: 2px;
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 75%;
+    border-style: 1px solid lightgray;
+    margin-right: 100px;
+    border-radius: 3px;
+}
+
+footer  {
+    margin-left: 70px;
+    
+    
+}
+
+footer a {
+    text-decoration: none;
+    padding: 10px;
+}
